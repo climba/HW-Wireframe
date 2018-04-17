@@ -1,0 +1,48 @@
+body{
+    margin-top: 0px; 
+    margin-bottom: 0px; 
+    margin-left: 0px; 
+    margin-right: 0px;
+    padding: 0;
+    color: black; 
+    font-size: 10pt; 
+    font-family: "Trebuchet MS", sans-serif;
+    background-color: #E2E2E2;
+}
+
+
+.top {
+    margin: 0;
+    padding-top: 20px;
+    background: #000000;
+    color: #818181;
+    height: 60px;
+    text-align: center;
+}
+
+section {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.leftCol {
+    padding-top: 30px;
+    float: left;
+    width: 25%;
+
+}
+
+.midCol {
+    padding-top: 90px;
+    float: left;
+    width: 35%;
+    
+}
+
+.rightCol {
+    padding-top: 30px;
+    padding-left: 15px;
+    float: left;
+    width: 30%;
+    
+}

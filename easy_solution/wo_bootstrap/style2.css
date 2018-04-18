@@ -72,3 +72,9 @@ h3 {
     padding-top: 10px;
     margin-bottom: 10px;
 }
+
+.footerarea {
+    height: 100px;
+    width: 100%;
+    background-color: #fff;
+}

@@ -1,0 +1,96 @@
+/**
+ * Float Layout Activity
+ **/
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333;
+}
+
+body {
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+header {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #333;
+  background: #ccc;
+}
+
+section {
+  background: #ccc;
+  padding-bottom: 20px;
+}
+
+#left {
+  background-color: #666;
+  float: left;
+  width: 33.333%;
+  height: 80px;
+  color: #ffffff;
+  padding-top: 30px;
+}
+
+#middle {
+  background-color: #888;
+  float: left;
+  width: 33.333%;
+  height: 80px;
+  color: #ffffff;
+  padding-top: 30px;
+}
+
+#right {
+  background-color: #666;
+  float: left;
+  width: 33.333%;
+  height: 80px;
+  color: #ffffff;
+  padding-top: 30px;
+}
+
+#full {
+  height: 400px;
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: #eee;
+ 
+}
+
+#division {
+  background-color: #6ea3da;
+  height: 80px;
+  padding-top: 30px;
+}
+
+aside {
+  float: left;
+  width: 300px;
+  height: 200px;
+  background-color: #fff;
+  padding-top: 20px;
+  margin-left: 80px;
+  margin-top: 20px;
+  border: 3px solid rgb(17, 209, 33);
+}
+
+footer {
+  height: 80px;
+  width: 100%;
+  background-color: #ccc;
+  padding-top: 30px;
+}
+
+.placing {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}

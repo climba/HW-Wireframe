@@ -16,16 +16,18 @@ html, body {
     background: linear-gradient(to 45deg, rgba(42, 27, 161, 0.6), rgba(29, 210, 177, 0.6) 100%); 
 }
 
-h3 {
+/* h3 {
     text-align: center;
     color: #777;
     padding-top: 40px;
 
-}
+} */
 
 .toparea {
     background-color: #fff;
     height: 100px;
+    width: 100%;
+    
 }
 
 .container {
@@ -35,50 +37,110 @@ h3 {
 
 .navarea {
     background-color: #fff;
-    height: 100px;
     width: 960px;
     margin: 0 auto;
+ 
 }
 
 .navleft {
-    background-color: aquamarine;
-    width: 200px;
+    /* background-color: #4AAAA5; */
+    width: 210px;
     float: left;
+    height: 100px;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b7deed+0,71ceef+37,21b4e2+100,b7deed+100,b7deed+100,b7deed+100,21b4e2+100,b7deed+100 */
+background: #b7deed; /* Old browsers */
+background: -moz-linear-gradient(left, #b7deed 0%, #71ceef 37%, #21b4e2 100%, #b7deed 100%, #b7deed 100%, #b7deed 100%, #21b4e2 100%, #b7deed 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #b7deed 0%,#71ceef 37%,#21b4e2 100%,#b7deed 100%,#b7deed 100%,#b7deed 100%,#21b4e2 100%,#b7deed 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #b7deed 0%,#71ceef 37%,#21b4e2 100%,#b7deed 100%,#b7deed 100%,#b7deed 100%,#21b4e2 100%,#b7deed 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7deed', endColorstr='#b7deed',GradientType=1 ); /* IE6-9 */  
+}
+
+.navright {
+    width: 310px;
+    float: right;
+    padding-top: 55px;
+}
+
+.navrlnks {
+    text-align: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #CCCCCC;
+}
+
+.navrlnks a {
+    text-decoration: none;
+    color: #CCCCCC;
 }
 
 .logotex {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-top: 16px;
-    padding-left: 15px;
+    font-family: 'Pacifico', cursive;
+    padding-top: 22px;
+    padding-left: 30px;
     color: #ffffff;
-    font-size: 26px;
+    font-size: 28px;
     text-align: left;
     text-shadow: 2px 2px #acacac;
     font-weight: normal;
     /* height: 100px; */
 }
 
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
 .maincontent {
-    height: 440px;
+
+    height: 100%;
+}
+
+
+h1, h3 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #acacac;
+}
+
+.maincontsec .lefimg {
+    float: left;
+    margin: 20px;
+}
+
+.maincontsec .rightimg {
+    float: right;
+    margin: 20px;
+}
+
+.maincontsec p {
+    font-family: 'Courier New', Courier, monospace;
+    color: #6e6e6e;
+}
+
+.maincontsec {
+    background-color: #fff;
+    float: left;
+    width: 910px;
+    height: 100%;   
+    margin: 20px 0;
+    padding: 20px 30px;
 }
 
 .leftsection {
-    background-color: #fff;
+    background-color: #f2f2f2;
     float: left;
-    width: 55%;
-    height: 400px;
+    width: 70%;
+    height: 500px;
     margin: 20px 0;
+    
+
 }
 
 .articlesec {
-    background-color: #777;  
-    height: 284px;
-    width: 94%;
-    margin: 0 auto;
-}
-
- .articlesec h3 { 
-    color: #fff;
+    background-color: #fff;  
+    height: 410px;
+    width: 84%;
+    margin: 20px auto;
+    padding: 20px 30px;
 }
 
 .articlesec .textblock h4 { 
@@ -89,10 +151,13 @@ h3 {
 .rightsection {
     background-color: #fff;
     float: left;
-    width: 43%;
-    height: 400px;
+    width: 28%;
+    height: 500px;
     /* margin-left: 19px; */
     margin: 20px 0 20px 19px;
+    text-align: center;
+    
+
 }
 
 .textblock {
@@ -107,8 +172,34 @@ h3 {
     margin-bottom: 10px;
 }
 
+/* table */
+
+.tg  {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+.tg td{
+    font-family: 'Courier New', Courier, monospace;
+    width: 280px;
+    color: #6e6e6e;
+    font-size:14px;
+    padding:10px 5px;
+    border-style:solid;
+    border-width:1px;
+    overflow:hidden;
+    border-color:#f2f2f2;
+}
+
+.tg .t-aligne {
+    vertical-align:top}
+
 .footerarea {
     width: 100%;
     height: 100px;
-    background-color: #fff;
+    background-color: #ffffff;
+}
+
+.footerarea p {
+    padding: 0;
+    margin: 0;
 }

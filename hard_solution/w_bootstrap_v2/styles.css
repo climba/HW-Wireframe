@@ -7,7 +7,7 @@ body, html {
     /* background: #F8F9FA; */
     background: #343A40; 
     height: 80px;
-    padding-top: 20px;
+    /* padding-top: 20px; */
 }
 
 hr {
@@ -150,3 +150,17 @@ section .section-title {
 }
 
 /* NAV STYLES */
+
+/* @media screen and (max-width: 980px) {
+    /* The body's bg color will be #333 */
+    /* .rezimg { */
+      /* height: 200px; */
+    /* } */
+  /* } */
+
+  @media screen and (max-width: 760px) {
+    /* The body's bg color will be #333 */
+    .rezimg {
+      height: 150px;
+    }
+  }

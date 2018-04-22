@@ -3,10 +3,18 @@ body, html {
 }
 
 .container-fluid {
-    /* width: 100%; */
-    background: #F8F9FA; */
-    height: 100px;
-    padding-top: 20px;
+    background: #343A40; 
+    height: 80px;
+
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0; 
 }
 
 .navbar {
@@ -17,14 +25,31 @@ body, html {
 .container {
     width: 960px;
     margin: 0 auto;
-    color: rgb(65, 65, 65);
-    background-color: rgba(99, 99, 99, 0.1);
+    color: #F8F9FA;
+    background-color: rgba(56, 56, 56, 0.8);
 }
+
+.col{
+    background-color:rgba(56, 56, 56, 0.8);
+    }
+
+.col-sm-4  {
+    background-color:rgba(56, 56, 56, 0.8);
+    }
+
+.col-sm-8  {
+    background-color:rgba(56, 56, 56, 0.8);
+    }            
+    
+    .col-wrap{
+    overflow: hidden; 
+    }  
 
 .bg { 
     /* The image used */
-    background-image: url("http://mdbootstrap.com/img/Photos/Others/img%20(42).jpg");
-
+    /* background-image: url("http://mdbootstrap.com/img/Photos/Others/img%20(42).jpg"); */
+    background-image: url("https://mdbootstrap.com/img/Photos/Others/img%20%2848%29.jpg");
+    
     /* Full height */
     height: 100%; 
 
@@ -33,6 +58,8 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 } 
+
+
 
 /* Footer */
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
@@ -50,8 +77,8 @@ section .section-title {
     background: #3f3f3f !important;
 }
 #footer h5{
-	padding-left: 10px;
-    border-left: 3px solid #eeeeee;
+	/* padding-left: 10px; */
+    /* border-left: 3px solid #eeeeee; */
     padding-bottom: 6px;
     margin-bottom: 20px;
     color:#ffffff;
@@ -108,3 +135,46 @@ section .section-title {
     padding-bottom: 0px;
     margin-bottom: 10px;
 }
+
+/* NAV SYLES */
+
+// Make default navbar links display block at choosen breakpoint and adjust styles to fit...
+@media (max-width: 980px) {
+	.navbar-nav {
+		padding-top: .425rem;
+		padding-left: 0.75rem;
+	}
+	.navbar-nav .nav-item {
+		float: none;
+	}
+	.navbar-brand {
+		float: right;
+	}
+	.navbar-brand,
+	.navbar-nav .nav-item {
+		display: block;
+	}
+	.navbar-nav .nav-item + .nav-item {
+		margin-left: 0;
+	}
+	.dropdown-menu {
+		position: relative;
+		float: none;
+	}
+}
+
+/* NAV STYLES */
+
+/* @media screen and (max-width: 980px) {
+    /* The body's bg color will be #333 */
+    /* .rezimg { */
+      /* height: 200px; */
+    /* } */
+  /* } */
+
+  /* @media screen and (max-width: 760px) {
+    /* The body's bg color will be #333 */
+  /*   .rezimg { */
+  /*     height: 150px; */
+  /*   } */
+ /*  } */
